@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A39FE7521B38071700BCD09B /* NXVFirstFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE7511B38071700BCD09B /* NXVFirstFactory.m */; };
+		A39FE7551B38075400BCD09B /* NXVFirstFactoryProductA.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE7541B38075400BCD09B /* NXVFirstFactoryProductA.m */; };
+		A39FE7581B38079300BCD09B /* NXVFirstFactoryProductB.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE7571B38079300BCD09B /* NXVFirstFactoryProductB.m */; };
+		A39FE75F1B3807FD00BCD09B /* NXVSecondFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE75E1B3807FD00BCD09B /* NXVSecondFactory.m */; };
+		A39FE7621B38082B00BCD09B /* NXVSecondFactoryProductA.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE7611B38082B00BCD09B /* NXVSecondFactoryProductA.m */; };
+		A39FE7651B38083800BCD09B /* NXVSecondFactoryProductB.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE7641B38083800BCD09B /* NXVSecondFactoryProductB.m */; };
+		A39FE7691B3808AE00BCD09B /* NXVConcreteBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE7681B3808AE00BCD09B /* NXVConcreteBuilder.m */; };
+		A39FE76C1B3808C200BCD09B /* NXVConcreteProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE76B1B3808C200BCD09B /* NXVConcreteProduct.m */; };
+		A39FE7701B380BEE00BCD09B /* NXVConcreteProductB.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE76F1B380BEE00BCD09B /* NXVConcreteProductB.m */; };
+		A39FE77A1B380D6900BCD09B /* NXVConcreteProductB+BuilderAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE7791B380D6900BCD09B /* NXVConcreteProductB+BuilderAdditions.m */; };
+		A39FE77F1B380E7300BCD09B /* NXVProductA.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE77E1B380E7300BCD09B /* NXVProductA.m */; };
+		A39FE7821B380E7C00BCD09B /* NXVProductB.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE7811B380E7C00BCD09B /* NXVProductB.m */; };
+		A39FE7851B380EB100BCD09B /* NXVFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE7841B380EB100BCD09B /* NXVFactory.m */; };
+		A39FE7891B380FD400BCD09B /* NXVElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE7881B380FD400BCD09B /* NXVElement.m */; };
+		A39FE78C1B380FE600BCD09B /* NXVElementInitialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE78B1B380FE600BCD09B /* NXVElementInitialization.m */; };
+		A39FE7901B3810C100BCD09B /* NXVObjectPool.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE78F1B3810C100BCD09B /* NXVObjectPool.m */; };
+		A39FE7931B3810D200BCD09B /* NXVReusableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE7921B3810D200BCD09B /* NXVReusableObject.m */; };
+		A39FE7981B38142900BCD09B /* NXVConcretePrototypeA.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE7971B38142900BCD09B /* NXVConcretePrototypeA.m */; };
+		A39FE79B1B3814AD00BCD09B /* NXVConcretePrototypeB.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE79A1B3814AD00BCD09B /* NXVConcretePrototypeB.m */; };
+		A39FE79F1B38151F00BCD09B /* NXVSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE79E1B38151F00BCD09B /* NXVSingleton.m */; };
+		A39FE7A81B3819DF00BCD09B /* NXVSomethingAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE7A71B3819DF00BCD09B /* NXVSomethingAwesome.m */; };
+		A39FE7AB1B381A6600BCD09B /* NXVHapiness.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE7AA1B381A6600BCD09B /* NXVHapiness.m */; };
+		A39FE7B31B381D6E00BCD09B /* NXVConcreteImplementorA.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE7B21B381D6E00BCD09B /* NXVConcreteImplementorA.m */; };
+		A39FE7B61B381D7D00BCD09B /* NXVConcreteImplementorB.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE7B51B381D7D00BCD09B /* NXVConcreteImplementorB.m */; };
+		A39FE7B91B381DEE00BCD09B /* NXVAbstraction.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE7B81B381DEE00BCD09B /* NXVAbstraction.m */; };
+		A39FE7BC1B381E6800BCD09B /* NXVRefinedAbstraction.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE7BB1B381E6800BCD09B /* NXVRefinedAbstraction.m */; };
+		A39FE7C11B381F9900BCD09B /* NXVLeaf.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE7C01B381F9900BCD09B /* NXVLeaf.m */; };
+		A39FE7C81B38217C00BCD09B /* NXVComposite.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE7C71B38217C00BCD09B /* NXVComposite.m */; };
+		A39FE7CD1B38235E00BCD09B /* NXVConcreteComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE7CC1B38235E00BCD09B /* NXVConcreteComponent.m */; };
+		A39FE7D01B38238C00BCD09B /* NXVDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE7CF1B38238C00BCD09B /* NXVDecorator.m */; };
+		A39FE7D31B38240900BCD09B /* NXVConcreteDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FE7D21B38240900BCD09B /* NXVConcreteDecorator.m */; };
+		A3B2787F1B3805B300CDAFA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B2787E1B3805B300CDAFA5 /* main.m */; };
+		A3B278821B3805B300CDAFA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B278811B3805B300CDAFA5 /* AppDelegate.m */; };
+		A3B278851B3805B300CDAFA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B278841B3805B300CDAFA5 /* ViewController.m */; };
+		A3B278881B3805B300CDAFA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B278861B3805B300CDAFA5 /* Main.storyboard */; };
+		A3B2788A1B3805B300CDAFA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3B278891B3805B300CDAFA5 /* Images.xcassets */; };
+		A3B2788D1B3805B300CDAFA5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3B2788B1B3805B300CDAFA5 /* LaunchScreen.xib */; };
+		A3B278991B3805B300CDAFA5 /* NXVDesignPatternsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B278981B3805B300CDAFA5 /* NXVDesignPatternsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3B278931B3805B300CDAFA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3B278711B3805B300CDAFA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3B278781B3805B300CDAFA5;
+			remoteInfo = NXVDesignPatterns;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A39FE7501B38071700BCD09B /* NXVFirstFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVFirstFactory.h; path = "Creational Patterns/Abstract Factory/NXVFirstFactory.h"; sourceTree = "<group>"; };
+		A39FE7511B38071700BCD09B /* NXVFirstFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVFirstFactory.m; path = "Creational Patterns/Abstract Factory/NXVFirstFactory.m"; sourceTree = "<group>"; };
+		A39FE7531B38075400BCD09B /* NXVFirstFactoryProductA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVFirstFactoryProductA.h; path = "Creational Patterns/Abstract Factory/NXVFirstFactoryProductA.h"; sourceTree = "<group>"; };
+		A39FE7541B38075400BCD09B /* NXVFirstFactoryProductA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVFirstFactoryProductA.m; path = "Creational Patterns/Abstract Factory/NXVFirstFactoryProductA.m"; sourceTree = "<group>"; };
+		A39FE7561B38079300BCD09B /* NXVFirstFactoryProductB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVFirstFactoryProductB.h; path = "Creational Patterns/Abstract Factory/NXVFirstFactoryProductB.h"; sourceTree = "<group>"; };
+		A39FE7571B38079300BCD09B /* NXVFirstFactoryProductB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVFirstFactoryProductB.m; path = "Creational Patterns/Abstract Factory/NXVFirstFactoryProductB.m"; sourceTree = "<group>"; };
+		A39FE75D1B3807FD00BCD09B /* NXVSecondFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVSecondFactory.h; path = "Creational Patterns/Abstract Factory/NXVSecondFactory.h"; sourceTree = "<group>"; };
+		A39FE75E1B3807FD00BCD09B /* NXVSecondFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVSecondFactory.m; path = "Creational Patterns/Abstract Factory/NXVSecondFactory.m"; sourceTree = "<group>"; };
+		A39FE7601B38082B00BCD09B /* NXVSecondFactoryProductA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVSecondFactoryProductA.h; path = "Creational Patterns/Abstract Factory/NXVSecondFactoryProductA.h"; sourceTree = "<group>"; };
+		A39FE7611B38082B00BCD09B /* NXVSecondFactoryProductA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVSecondFactoryProductA.m; path = "Creational Patterns/Abstract Factory/NXVSecondFactoryProductA.m"; sourceTree = "<group>"; };
+		A39FE7631B38083800BCD09B /* NXVSecondFactoryProductB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVSecondFactoryProductB.h; path = "Creational Patterns/Abstract Factory/NXVSecondFactoryProductB.h"; sourceTree = "<group>"; };
+		A39FE7641B38083800BCD09B /* NXVSecondFactoryProductB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVSecondFactoryProductB.m; path = "Creational Patterns/Abstract Factory/NXVSecondFactoryProductB.m"; sourceTree = "<group>"; };
+		A39FE7671B3808AE00BCD09B /* NXVConcreteBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVConcreteBuilder.h; path = "Creational Patterns/Builder/NXVConcreteBuilder.h"; sourceTree = "<group>"; };
+		A39FE7681B3808AE00BCD09B /* NXVConcreteBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVConcreteBuilder.m; path = "Creational Patterns/Builder/NXVConcreteBuilder.m"; sourceTree = "<group>"; };
+		A39FE76A1B3808C200BCD09B /* NXVConcreteProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVConcreteProduct.h; path = "Creational Patterns/Builder/NXVConcreteProduct.h"; sourceTree = "<group>"; };
+		A39FE76B1B3808C200BCD09B /* NXVConcreteProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVConcreteProduct.m; path = "Creational Patterns/Builder/NXVConcreteProduct.m"; sourceTree = "<group>"; };
+		A39FE76E1B380BEE00BCD09B /* NXVConcreteProductB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVConcreteProductB.h; path = "Creational Patterns/Builder/NXVConcreteProductB.h"; sourceTree = "<group>"; };
+		A39FE76F1B380BEE00BCD09B /* NXVConcreteProductB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVConcreteProductB.m; path = "Creational Patterns/Builder/NXVConcreteProductB.m"; sourceTree = "<group>"; };
+		A39FE7781B380D6900BCD09B /* NXVConcreteProductB+BuilderAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NXVConcreteProductB+BuilderAdditions.h"; path = "Creational Patterns/Builder/NXVConcreteProductB+BuilderAdditions.h"; sourceTree = "<group>"; };
+		A39FE7791B380D6900BCD09B /* NXVConcreteProductB+BuilderAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NXVConcreteProductB+BuilderAdditions.m"; path = "Creational Patterns/Builder/NXVConcreteProductB+BuilderAdditions.m"; sourceTree = "<group>"; };
+		A39FE77C1B380E5600BCD09B /* NXVProductProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVProductProtocol.h; path = "Creational Patterns/Factory Method/NXVProductProtocol.h"; sourceTree = "<group>"; };
+		A39FE77D1B380E7300BCD09B /* NXVProductA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVProductA.h; path = "Creational Patterns/Factory Method/NXVProductA.h"; sourceTree = "<group>"; };
+		A39FE77E1B380E7300BCD09B /* NXVProductA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVProductA.m; path = "Creational Patterns/Factory Method/NXVProductA.m"; sourceTree = "<group>"; };
+		A39FE7801B380E7C00BCD09B /* NXVProductB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVProductB.h; path = "Creational Patterns/Factory Method/NXVProductB.h"; sourceTree = "<group>"; };
+		A39FE7811B380E7C00BCD09B /* NXVProductB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVProductB.m; path = "Creational Patterns/Factory Method/NXVProductB.m"; sourceTree = "<group>"; };
+		A39FE7831B380EB100BCD09B /* NXVFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVFactory.h; path = "Creational Patterns/Factory Method/NXVFactory.h"; sourceTree = "<group>"; };
+		A39FE7841B380EB100BCD09B /* NXVFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVFactory.m; path = "Creational Patterns/Factory Method/NXVFactory.m"; sourceTree = "<group>"; };
+		A39FE7871B380FD400BCD09B /* NXVElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVElement.h; path = "Creational Patterns/Lazy Initialization/NXVElement.h"; sourceTree = "<group>"; };
+		A39FE7881B380FD400BCD09B /* NXVElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVElement.m; path = "Creational Patterns/Lazy Initialization/NXVElement.m"; sourceTree = "<group>"; };
+		A39FE78A1B380FE600BCD09B /* NXVElementInitialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVElementInitialization.h; path = "Creational Patterns/Lazy Initialization/NXVElementInitialization.h"; sourceTree = "<group>"; };
+		A39FE78B1B380FE600BCD09B /* NXVElementInitialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVElementInitialization.m; path = "Creational Patterns/Lazy Initialization/NXVElementInitialization.m"; sourceTree = "<group>"; };
+		A39FE78E1B3810C100BCD09B /* NXVObjectPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVObjectPool.h; path = "Creational Patterns/Object Pool/NXVObjectPool.h"; sourceTree = "<group>"; };
+		A39FE78F1B3810C100BCD09B /* NXVObjectPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVObjectPool.m; path = "Creational Patterns/Object Pool/NXVObjectPool.m"; sourceTree = "<group>"; };
+		A39FE7911B3810D200BCD09B /* NXVReusableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVReusableObject.h; path = "Creational Patterns/Object Pool/NXVReusableObject.h"; sourceTree = "<group>"; };
+		A39FE7921B3810D200BCD09B /* NXVReusableObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVReusableObject.m; path = "Creational Patterns/Object Pool/NXVReusableObject.m"; sourceTree = "<group>"; };
+		A39FE7951B3813F300BCD09B /* NXVPrototype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVPrototype.h; path = "Creational Patterns/Prototype/NXVPrototype.h"; sourceTree = "<group>"; };
+		A39FE7961B38142900BCD09B /* NXVConcretePrototypeA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVConcretePrototypeA.h; path = "Creational Patterns/Prototype/NXVConcretePrototypeA.h"; sourceTree = "<group>"; };
+		A39FE7971B38142900BCD09B /* NXVConcretePrototypeA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVConcretePrototypeA.m; path = "Creational Patterns/Prototype/NXVConcretePrototypeA.m"; sourceTree = "<group>"; };
+		A39FE7991B3814AD00BCD09B /* NXVConcretePrototypeB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVConcretePrototypeB.h; path = "Creational Patterns/Prototype/NXVConcretePrototypeB.h"; sourceTree = "<group>"; };
+		A39FE79A1B3814AD00BCD09B /* NXVConcretePrototypeB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVConcretePrototypeB.m; path = "Creational Patterns/Prototype/NXVConcretePrototypeB.m"; sourceTree = "<group>"; };
+		A39FE79D1B38151F00BCD09B /* NXVSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVSingleton.h; path = "Creational Patterns/Singleton/NXVSingleton.h"; sourceTree = "<group>"; };
+		A39FE79E1B38151F00BCD09B /* NXVSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVSingleton.m; path = "Creational Patterns/Singleton/NXVSingleton.m"; sourceTree = "<group>"; };
+		A39FE7A51B38199F00BCD09B /* NXVTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVTarget.h; path = "Structural Patterns/Adapter (Wrapper)/NXVTarget.h"; sourceTree = "<group>"; };
+		A39FE7A61B3819DF00BCD09B /* NXVSomethingAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVSomethingAwesome.h; path = "Structural Patterns/Adapter (Wrapper)/NXVSomethingAwesome.h"; sourceTree = "<group>"; };
+		A39FE7A71B3819DF00BCD09B /* NXVSomethingAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVSomethingAwesome.m; path = "Structural Patterns/Adapter (Wrapper)/NXVSomethingAwesome.m"; sourceTree = "<group>"; };
+		A39FE7A91B381A6600BCD09B /* NXVHapiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVHapiness.h; path = "Structural Patterns/Adapter (Wrapper)/NXVHapiness.h"; sourceTree = "<group>"; };
+		A39FE7AA1B381A6600BCD09B /* NXVHapiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVHapiness.m; path = "Structural Patterns/Adapter (Wrapper)/NXVHapiness.m"; sourceTree = "<group>"; };
+		A39FE7B01B381D1100BCD09B /* NXVImplementor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVImplementor.h; path = "Structural Patterns/Bridge/NXVImplementor.h"; sourceTree = "<group>"; };
+		A39FE7B11B381D6E00BCD09B /* NXVConcreteImplementorA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVConcreteImplementorA.h; path = "Structural Patterns/Bridge/NXVConcreteImplementorA.h"; sourceTree = "<group>"; };
+		A39FE7B21B381D6E00BCD09B /* NXVConcreteImplementorA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVConcreteImplementorA.m; path = "Structural Patterns/Bridge/NXVConcreteImplementorA.m"; sourceTree = "<group>"; };
+		A39FE7B41B381D7D00BCD09B /* NXVConcreteImplementorB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVConcreteImplementorB.h; path = "Structural Patterns/Bridge/NXVConcreteImplementorB.h"; sourceTree = "<group>"; };
+		A39FE7B51B381D7D00BCD09B /* NXVConcreteImplementorB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVConcreteImplementorB.m; path = "Structural Patterns/Bridge/NXVConcreteImplementorB.m"; sourceTree = "<group>"; };
+		A39FE7B71B381DEE00BCD09B /* NXVAbstraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVAbstraction.h; path = "Structural Patterns/Bridge/NXVAbstraction.h"; sourceTree = "<group>"; };
+		A39FE7B81B381DEE00BCD09B /* NXVAbstraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVAbstraction.m; path = "Structural Patterns/Bridge/NXVAbstraction.m"; sourceTree = "<group>"; };
+		A39FE7BA1B381E6800BCD09B /* NXVRefinedAbstraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVRefinedAbstraction.h; path = "Structural Patterns/Bridge/NXVRefinedAbstraction.h"; sourceTree = "<group>"; };
+		A39FE7BB1B381E6800BCD09B /* NXVRefinedAbstraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVRefinedAbstraction.m; path = "Structural Patterns/Bridge/NXVRefinedAbstraction.m"; sourceTree = "<group>"; };
+		A39FE7BE1B381EE600BCD09B /* NXVComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVComponent.h; path = "Structural Patterns/Composite/NXVComponent.h"; sourceTree = "<group>"; };
+		A39FE7BF1B381F9900BCD09B /* NXVLeaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVLeaf.h; path = "Structural Patterns/Composite/NXVLeaf.h"; sourceTree = "<group>"; };
+		A39FE7C01B381F9900BCD09B /* NXVLeaf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVLeaf.m; path = "Structural Patterns/Composite/NXVLeaf.m"; sourceTree = "<group>"; };
+		A39FE7C61B38217C00BCD09B /* NXVComposite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVComposite.h; path = "Structural Patterns/Composite/NXVComposite.h"; sourceTree = "<group>"; };
+		A39FE7C71B38217C00BCD09B /* NXVComposite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVComposite.m; path = "Structural Patterns/Composite/NXVComposite.m"; sourceTree = "<group>"; };
+		A39FE7CA1B38233A00BCD09B /* NXVComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVComponent.h; path = "Structural Patterns/Decorator/NXVComponent.h"; sourceTree = "<group>"; };
+		A39FE7CB1B38235E00BCD09B /* NXVConcreteComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVConcreteComponent.h; path = "Structural Patterns/Decorator/NXVConcreteComponent.h"; sourceTree = "<group>"; };
+		A39FE7CC1B38235E00BCD09B /* NXVConcreteComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVConcreteComponent.m; path = "Structural Patterns/Decorator/NXVConcreteComponent.m"; sourceTree = "<group>"; };
+		A39FE7CE1B38238C00BCD09B /* NXVDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVDecorator.h; path = "Structural Patterns/Decorator/NXVDecorator.h"; sourceTree = "<group>"; };
+		A39FE7CF1B38238C00BCD09B /* NXVDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVDecorator.m; path = "Structural Patterns/Decorator/NXVDecorator.m"; sourceTree = "<group>"; };
+		A39FE7D11B38240900BCD09B /* NXVConcreteDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVConcreteDecorator.h; path = "Structural Patterns/Decorator/NXVConcreteDecorator.h"; sourceTree = "<group>"; };
+		A39FE7D21B38240900BCD09B /* NXVConcreteDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NXVConcreteDecorator.m; path = "Structural Patterns/Decorator/NXVConcreteDecorator.m"; sourceTree = "<group>"; };
+		A3B278791B3805B300CDAFA5 /* NXVDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NXVDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B2787D1B3805B300CDAFA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3B2787E1B3805B300CDAFA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3B278801B3805B300CDAFA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3B278811B3805B300CDAFA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3B278831B3805B300CDAFA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3B278841B3805B300CDAFA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3B278871B3805B300CDAFA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3B278891B3805B300CDAFA5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A3B2788C1B3805B300CDAFA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A3B278921B3805B300CDAFA5 /* NXVDesignPatternsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NXVDesignPatternsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B278971B3805B300CDAFA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3B278981B3805B300CDAFA5 /* NXVDesignPatternsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXVDesignPatternsTests.m; sourceTree = "<group>"; };
+		A3B278A41B38063000CDAFA5 /* NXVAbstractFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVAbstractFactory.h; path = "Creational Patterns/Abstract Factory/NXVAbstractFactory.h"; sourceTree = "<group>"; };
+		A3B278A51B38064D00CDAFA5 /* NXVAbstractProductA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVAbstractProductA.h; path = "Creational Patterns/Abstract Factory/NXVAbstractProductA.h"; sourceTree = "<group>"; };
+		A3B278A61B38066200CDAFA5 /* NXVAbstractProductB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NXVAbstractProductB.h; path = "Creational Patterns/Abstract Factory/NXVAbstractProductB.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3B278761B3805B300CDAFA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B2788F1B3805B300CDAFA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A39FE7591B3807C900BCD09B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A3B278A41B38063000CDAFA5 /* NXVAbstractFactory.h */,
+				A3B278A51B38064D00CDAFA5 /* NXVAbstractProductA.h */,
+				A3B278A61B38066200CDAFA5 /* NXVAbstractProductB.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		A39FE75A1B3807DB00BCD09B /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				A39FE75B1B3807E200BCD09B /* First */,
+				A39FE75C1B3807E900BCD09B /* Second */,
+			);
+			name = Factories;
+			sourceTree = "<group>";
+		};
+		A39FE75B1B3807E200BCD09B /* First */ = {
+			isa = PBXGroup;
+			children = (
+				A39FE7501B38071700BCD09B /* NXVFirstFactory.h */,
+				A39FE7511B38071700BCD09B /* NXVFirstFactory.m */,
+				A39FE7531B38075400BCD09B /* NXVFirstFactoryProductA.h */,
+				A39FE7541B38075400BCD09B /* NXVFirstFactoryProductA.m */,
+				A39FE7561B38079300BCD09B /* NXVFirstFactoryProductB.h */,
+				A39FE7571B38079300BCD09B /* NXVFirstFactoryProductB.m */,
+			);
+			name = First;
+			sourceTree = "<group>";
+		};
+		A39FE75C1B3807E900BCD09B /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				A39FE75D1B3807FD00BCD09B /* NXVSecondFactory.h */,
+				A39FE75E1B3807FD00BCD09B /* NXVSecondFactory.m */,
+				A39FE7601B38082B00BCD09B /* NXVSecondFactoryProductA.h */,
+				A39FE7611B38082B00BCD09B /* NXVSecondFactoryProductA.m */,
+				A39FE7631B38083800BCD09B /* NXVSecondFactoryProductB.h */,
+				A39FE7641B38083800BCD09B /* NXVSecondFactoryProductB.m */,
+			);
+			name = Second;
+			sourceTree = "<group>";
+		};
+		A39FE7661B38088700BCD09B /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				A39FE7721B380C8300BCD09B /* Product */,
+			);
+			name = Builder;
+			sourceTree = "<group>";
+		};
+		A39FE7721B380C8300BCD09B /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				A39FE7731B380C8B00BCD09B /* A */,
+				A39FE7741B380C9000BCD09B /* B */,
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
+		A39FE7731B380C8B00BCD09B /* A */ = {
+			isa = PBXGroup;
+			children = (
+				A39FE76A1B3808C200BCD09B /* NXVConcreteProduct.h */,
+				A39FE76B1B3808C200BCD09B /* NXVConcreteProduct.m */,
+				A39FE7671B3808AE00BCD09B /* NXVConcreteBuilder.h */,
+				A39FE7681B3808AE00BCD09B /* NXVConcreteBuilder.m */,
+			);
+			name = A;
+			sourceTree = "<group>";
+		};
+		A39FE7741B380C9000BCD09B /* B */ = {
+			isa = PBXGroup;
+			children = (
+				A39FE76E1B380BEE00BCD09B /* NXVConcreteProductB.h */,
+				A39FE76F1B380BEE00BCD09B /* NXVConcreteProductB.m */,
+				A39FE7781B380D6900BCD09B /* NXVConcreteProductB+BuilderAdditions.h */,
+				A39FE7791B380D6900BCD09B /* NXVConcreteProductB+BuilderAdditions.m */,
+			);
+			name = B;
+			sourceTree = "<group>";
+		};
+		A39FE77B1B380E3300BCD09B /* Factory Method */ = {
+			isa = PBXGroup;
+			children = (
+				A39FE77C1B380E5600BCD09B /* NXVProductProtocol.h */,
+				A39FE77D1B380E7300BCD09B /* NXVProductA.h */,
+				A39FE77E1B380E7300BCD09B /* NXVProductA.m */,
+				A39FE7801B380E7C00BCD09B /* NXVProductB.h */,
+				A39FE7811B380E7C00BCD09B /* NXVProductB.m */,
+				A39FE7831B380EB100BCD09B /* NXVFactory.h */,
+				A39FE7841B380EB100BCD09B /* NXVFactory.m */,
+			);
+			name = "Factory Method";
+			sourceTree = "<group>";
+		};
+		A39FE7861B380FBB00BCD09B /* Lazy Initialization */ = {
+			isa = PBXGroup;
+			children = (
+				A39FE7871B380FD400BCD09B /* NXVElement.h */,
+				A39FE7881B380FD400BCD09B /* NXVElement.m */,
+				A39FE78A1B380FE600BCD09B /* NXVElementInitialization.h */,
+				A39FE78B1B380FE600BCD09B /* NXVElementInitialization.m */,
+			);
+			name = "Lazy Initialization";
+			sourceTree = "<group>";
+		};
+		A39FE78D1B38109500BCD09B /* Object Pool */ = {
+			isa = PBXGroup;
+			children = (
+				A39FE78E1B3810C100BCD09B /* NXVObjectPool.h */,
+				A39FE78F1B3810C100BCD09B /* NXVObjectPool.m */,
+				A39FE7911B3810D200BCD09B /* NXVReusableObject.h */,
+				A39FE7921B3810D200BCD09B /* NXVReusableObject.m */,
+			);
+			name = "Object Pool";
+			sourceTree = "<group>";
+		};
+		A39FE7941B38138800BCD09B /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				A39FE7951B3813F300BCD09B /* NXVPrototype.h */,
+				A39FE7961B38142900BCD09B /* NXVConcretePrototypeA.h */,
+				A39FE7971B38142900BCD09B /* NXVConcretePrototypeA.m */,
+				A39FE7991B3814AD00BCD09B /* NXVConcretePrototypeB.h */,
+				A39FE79A1B3814AD00BCD09B /* NXVConcretePrototypeB.m */,
+			);
+			name = Prototype;
+			sourceTree = "<group>";
+		};
+		A39FE79C1B38150E00BCD09B /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				A39FE79D1B38151F00BCD09B /* NXVSingleton.h */,
+				A39FE79E1B38151F00BCD09B /* NXVSingleton.m */,
+			);
+			name = Singleton;
+			sourceTree = "<group>";
+		};
+		A39FE7A01B38194100BCD09B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A3B278801B3805B300CDAFA5 /* AppDelegate.h */,
+				A3B278811B3805B300CDAFA5 /* AppDelegate.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		A39FE7A11B38194A00BCD09B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3B278831B3805B300CDAFA5 /* ViewController.h */,
+				A3B278841B3805B300CDAFA5 /* ViewController.m */,
+				A3B278861B3805B300CDAFA5 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A39FE7A21B38195900BCD09B /* Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				A39FE7A31B38196700BCD09B /* Structural Patterns */,
+				A3B278A21B3805C200CDAFA5 /* Creational Patterns */,
+			);
+			name = Pattern;
+			sourceTree = "<group>";
+		};
+		A39FE7A31B38196700BCD09B /* Structural Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				A39FE7C91B3822AD00BCD09B /* Decorator */,
+				A39FE7BD1B381EB300BCD09B /* Composite */,
+				A39FE7AC1B381CD800BCD09B /* Bridge */,
+				A39FE7A41B38197700BCD09B /* Adapter (Wrapper) */,
+			);
+			name = "Structural Patterns";
+			sourceTree = "<group>";
+		};
+		A39FE7A41B38197700BCD09B /* Adapter (Wrapper) */ = {
+			isa = PBXGroup;
+			children = (
+				A39FE7A51B38199F00BCD09B /* NXVTarget.h */,
+				A39FE7A91B381A6600BCD09B /* NXVHapiness.h */,
+				A39FE7AA1B381A6600BCD09B /* NXVHapiness.m */,
+				A39FE7A61B3819DF00BCD09B /* NXVSomethingAwesome.h */,
+				A39FE7A71B3819DF00BCD09B /* NXVSomethingAwesome.m */,
+			);
+			name = "Adapter (Wrapper)";
+			sourceTree = "<group>";
+		};
+		A39FE7AC1B381CD800BCD09B /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				A39FE7B01B381D1100BCD09B /* NXVImplementor.h */,
+				A39FE7B11B381D6E00BCD09B /* NXVConcreteImplementorA.h */,
+				A39FE7B21B381D6E00BCD09B /* NXVConcreteImplementorA.m */,
+				A39FE7B41B381D7D00BCD09B /* NXVConcreteImplementorB.h */,
+				A39FE7B51B381D7D00BCD09B /* NXVConcreteImplementorB.m */,
+				A39FE7B71B381DEE00BCD09B /* NXVAbstraction.h */,
+				A39FE7B81B381DEE00BCD09B /* NXVAbstraction.m */,
+				A39FE7BA1B381E6800BCD09B /* NXVRefinedAbstraction.h */,
+				A39FE7BB1B381E6800BCD09B /* NXVRefinedAbstraction.m */,
+			);
+			name = Bridge;
+			sourceTree = "<group>";
+		};
+		A39FE7BD1B381EB300BCD09B /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+				A39FE7BE1B381EE600BCD09B /* NXVComponent.h */,
+				A39FE7C61B38217C00BCD09B /* NXVComposite.h */,
+				A39FE7C71B38217C00BCD09B /* NXVComposite.m */,
+				A39FE7BF1B381F9900BCD09B /* NXVLeaf.h */,
+				A39FE7C01B381F9900BCD09B /* NXVLeaf.m */,
+			);
+			name = Composite;
+			sourceTree = "<group>";
+		};
+		A39FE7C91B3822AD00BCD09B /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				A39FE7CA1B38233A00BCD09B /* NXVComponent.h */,
+				A39FE7CB1B38235E00BCD09B /* NXVConcreteComponent.h */,
+				A39FE7CC1B38235E00BCD09B /* NXVConcreteComponent.m */,
+				A39FE7CE1B38238C00BCD09B /* NXVDecorator.h */,
+				A39FE7CF1B38238C00BCD09B /* NXVDecorator.m */,
+				A39FE7D11B38240900BCD09B /* NXVConcreteDecorator.h */,
+				A39FE7D21B38240900BCD09B /* NXVConcreteDecorator.m */,
+			);
+			name = Decorator;
+			sourceTree = "<group>";
+		};
+		A3B278701B3805B300CDAFA5 = {
+			isa = PBXGroup;
+			children = (
+				A3B2787B1B3805B300CDAFA5 /* NXVDesignPatterns */,
+				A3B278951B3805B300CDAFA5 /* NXVDesignPatternsTests */,
+				A3B2787A1B3805B300CDAFA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3B2787A1B3805B300CDAFA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3B278791B3805B300CDAFA5 /* NXVDesignPatterns.app */,
+				A3B278921B3805B300CDAFA5 /* NXVDesignPatternsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3B2787B1B3805B300CDAFA5 /* NXVDesignPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				A39FE7A21B38195900BCD09B /* Pattern */,
+				A39FE7A01B38194100BCD09B /* App */,
+				A39FE7A11B38194A00BCD09B /* View */,
+				A3B2787C1B3805B300CDAFA5 /* Supporting Files */,
+			);
+			path = NXVDesignPatterns;
+			sourceTree = "<group>";
+		};
+		A3B2787C1B3805B300CDAFA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3B278891B3805B300CDAFA5 /* Images.xcassets */,
+				A3B2788B1B3805B300CDAFA5 /* LaunchScreen.xib */,
+				A3B2787D1B3805B300CDAFA5 /* Info.plist */,
+				A3B2787E1B3805B300CDAFA5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3B278951B3805B300CDAFA5 /* NXVDesignPatternsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3B278981B3805B300CDAFA5 /* NXVDesignPatternsTests.m */,
+				A3B278961B3805B300CDAFA5 /* Supporting Files */,
+			);
+			path = NXVDesignPatternsTests;
+			sourceTree = "<group>";
+		};
+		A3B278961B3805B300CDAFA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3B278971B3805B300CDAFA5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3B278A21B3805C200CDAFA5 /* Creational Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				A39FE79C1B38150E00BCD09B /* Singleton */,
+				A39FE7941B38138800BCD09B /* Prototype */,
+				A39FE78D1B38109500BCD09B /* Object Pool */,
+				A39FE7861B380FBB00BCD09B /* Lazy Initialization */,
+				A39FE77B1B380E3300BCD09B /* Factory Method */,
+				A39FE7661B38088700BCD09B /* Builder */,
+				A3B278A31B3805F900CDAFA5 /* Abstract Factory */,
+			);
+			name = "Creational Patterns";
+			sourceTree = "<group>";
+		};
+		A3B278A31B3805F900CDAFA5 /* Abstract Factory */ = {
+			isa = PBXGroup;
+			children = (
+				A39FE7591B3807C900BCD09B /* Protocols */,
+				A39FE75A1B3807DB00BCD09B /* Factories */,
+			);
+			name = "Abstract Factory";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3B278781B3805B300CDAFA5 /* NXVDesignPatterns */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3B2789C1B3805B300CDAFA5 /* Build configuration list for PBXNativeTarget "NXVDesignPatterns" */;
+			buildPhases = (
+				A3B278751B3805B300CDAFA5 /* Sources */,
+				A3B278761B3805B300CDAFA5 /* Frameworks */,
+				A3B278771B3805B300CDAFA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NXVDesignPatterns;
+			productName = NXVDesignPatterns;
+			productReference = A3B278791B3805B300CDAFA5 /* NXVDesignPatterns.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3B278911B3805B300CDAFA5 /* NXVDesignPatternsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3B2789F1B3805B300CDAFA5 /* Build configuration list for PBXNativeTarget "NXVDesignPatternsTests" */;
+			buildPhases = (
+				A3B2788E1B3805B300CDAFA5 /* Sources */,
+				A3B2788F1B3805B300CDAFA5 /* Frameworks */,
+				A3B278901B3805B300CDAFA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3B278941B3805B300CDAFA5 /* PBXTargetDependency */,
+			);
+			name = NXVDesignPatternsTests;
+			productName = NXVDesignPatternsTests;
+			productReference = A3B278921B3805B300CDAFA5 /* NXVDesignPatternsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3B278711B3805B300CDAFA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Vinh nguyen";
+				TargetAttributes = {
+					A3B278781B3805B300CDAFA5 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					A3B278911B3805B300CDAFA5 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = A3B278781B3805B300CDAFA5;
+					};
+				};
+			};
+			buildConfigurationList = A3B278741B3805B300CDAFA5 /* Build configuration list for PBXProject "NXVDesignPatterns" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3B278701B3805B300CDAFA5;
+			productRefGroup = A3B2787A1B3805B300CDAFA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3B278781B3805B300CDAFA5 /* NXVDesignPatterns */,
+				A3B278911B3805B300CDAFA5 /* NXVDesignPatternsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3B278771B3805B300CDAFA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B278881B3805B300CDAFA5 /* Main.storyboard in Resources */,
+				A3B2788D1B3805B300CDAFA5 /* LaunchScreen.xib in Resources */,
+				A3B2788A1B3805B300CDAFA5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B278901B3805B300CDAFA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3B278751B3805B300CDAFA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39FE7981B38142900BCD09B /* NXVConcretePrototypeA.m in Sources */,
+				A39FE7931B3810D200BCD09B /* NXVReusableObject.m in Sources */,
+				A39FE7521B38071700BCD09B /* NXVFirstFactory.m in Sources */,
+				A39FE7651B38083800BCD09B /* NXVSecondFactoryProductB.m in Sources */,
+				A39FE77F1B380E7300BCD09B /* NXVProductA.m in Sources */,
+				A39FE7D01B38238C00BCD09B /* NXVDecorator.m in Sources */,
+				A39FE7581B38079300BCD09B /* NXVFirstFactoryProductB.m in Sources */,
+				A39FE7551B38075400BCD09B /* NXVFirstFactoryProductA.m in Sources */,
+				A39FE78C1B380FE600BCD09B /* NXVElementInitialization.m in Sources */,
+				A39FE75F1B3807FD00BCD09B /* NXVSecondFactory.m in Sources */,
+				A39FE7891B380FD400BCD09B /* NXVElement.m in Sources */,
+				A39FE7B61B381D7D00BCD09B /* NXVConcreteImplementorB.m in Sources */,
+				A39FE7B31B381D6E00BCD09B /* NXVConcreteImplementorA.m in Sources */,
+				A39FE7691B3808AE00BCD09B /* NXVConcreteBuilder.m in Sources */,
+				A39FE7B91B381DEE00BCD09B /* NXVAbstraction.m in Sources */,
+				A39FE7C11B381F9900BCD09B /* NXVLeaf.m in Sources */,
+				A39FE7BC1B381E6800BCD09B /* NXVRefinedAbstraction.m in Sources */,
+				A39FE76C1B3808C200BCD09B /* NXVConcreteProduct.m in Sources */,
+				A3B278851B3805B300CDAFA5 /* ViewController.m in Sources */,
+				A39FE7AB1B381A6600BCD09B /* NXVHapiness.m in Sources */,
+				A39FE7CD1B38235E00BCD09B /* NXVConcreteComponent.m in Sources */,
+				A39FE77A1B380D6900BCD09B /* NXVConcreteProductB+BuilderAdditions.m in Sources */,
+				A39FE79F1B38151F00BCD09B /* NXVSingleton.m in Sources */,
+				A39FE7901B3810C100BCD09B /* NXVObjectPool.m in Sources */,
+				A3B278821B3805B300CDAFA5 /* AppDelegate.m in Sources */,
+				A39FE7851B380EB100BCD09B /* NXVFactory.m in Sources */,
+				A3B2787F1B3805B300CDAFA5 /* main.m in Sources */,
+				A39FE7701B380BEE00BCD09B /* NXVConcreteProductB.m in Sources */,
+				A39FE79B1B3814AD00BCD09B /* NXVConcretePrototypeB.m in Sources */,
+				A39FE7D31B38240900BCD09B /* NXVConcreteDecorator.m in Sources */,
+				A39FE7C81B38217C00BCD09B /* NXVComposite.m in Sources */,
+				A39FE7621B38082B00BCD09B /* NXVSecondFactoryProductA.m in Sources */,
+				A39FE7821B380E7C00BCD09B /* NXVProductB.m in Sources */,
+				A39FE7A81B3819DF00BCD09B /* NXVSomethingAwesome.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B2788E1B3805B300CDAFA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B278991B3805B300CDAFA5 /* NXVDesignPatternsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3B278941B3805B300CDAFA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3B278781B3805B300CDAFA5 /* NXVDesignPatterns */;
+			targetProxy = A3B278931B3805B300CDAFA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3B278861B3805B300CDAFA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3B278871B3805B300CDAFA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3B2788B1B3805B300CDAFA5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3B2788C1B3805B300CDAFA5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3B2789A1B3805B300CDAFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3B2789B1B3805B300CDAFA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3B2789D1B3805B300CDAFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NXVDesignPatterns/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3B2789E1B3805B300CDAFA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NXVDesignPatterns/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3B278A01B3805B300CDAFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NXVDesignPatternsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NXVDesignPatterns.app/NXVDesignPatterns";
+			};
+			name = Debug;
+		};
+		A3B278A11B3805B300CDAFA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NXVDesignPatternsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NXVDesignPatterns.app/NXVDesignPatterns";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3B278741B3805B300CDAFA5 /* Build configuration list for PBXProject "NXVDesignPatterns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B2789A1B3805B300CDAFA5 /* Debug */,
+				A3B2789B1B3805B300CDAFA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3B2789C1B3805B300CDAFA5 /* Build configuration list for PBXNativeTarget "NXVDesignPatterns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B2789D1B3805B300CDAFA5 /* Debug */,
+				A3B2789E1B3805B300CDAFA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3B2789F1B3805B300CDAFA5 /* Build configuration list for PBXNativeTarget "NXVDesignPatternsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B278A01B3805B300CDAFA5 /* Debug */,
+				A3B278A11B3805B300CDAFA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3B278711B3805B300CDAFA5 /* Project object */;
+}
